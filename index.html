@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- We only include this to explicitly loosen the CSP of various packager environments. It does not provide any security. -->
   <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:">
-  <title>goremade.shop</title>
+  <title>goremade clothing</title>
   <style>
     body {
       color: #ffffff;
@@ -165,7 +165,7 @@
     <noscript>Enable JavaScript</noscript>
     
     
-    
+    <div class="progress-bar-outer"><div class="progress-bar-inner" id="loading-inner"></div></div>
   </div>
 
   <div id="error" class="screen" hidden>
@@ -227,7 +227,7 @@
       scaffolding.setAccentColor("#ff4c4c");
 
       try {
-        scaffolding.addCloudProvider(new Scaffolding.Cloud.WebSocketProvider(["wss://clouddata.turbowarp.org","wss://clouddata.turbowarp.xyz"], "p4-@Website Ver November 20.sb3"));
+        scaffolding.addCloudProvider(new Scaffolding.Cloud.WebSocketProvider(["wss://clouddata.turbowarp.org","wss://clouddata.turbowarp.xyz"], "p4-@Website Ver 1 19 25.sb3"));
       } catch (error) {
         console.error(error);
       }
@@ -239,7 +239,7 @@
       if (vm.setRuntimeOptions) vm.setRuntimeOptions({
         fencing: false,
         miscLimits: false,
-        maxClones: 300,
+        maxClones: 9999999999,
       });
       if (vm.setCompilerOptions) vm.setCompilerOptions({
         enabled: true,
